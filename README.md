@@ -46,6 +46,7 @@ order_delivered_carrier_date: date and time when the order was handed over to th
 order_delivered_customer_date: date and time when the order was delivered to the customer
 
 order_estimated_delivery_date: estimated date when the order is expected to be delivered
+
 4.olist_order_items_dataset.csv
 
 order_id: unique identifier for the order
@@ -60,7 +61,8 @@ product shipping_limit_date: date and time when the seller has to ship the produ
 
 price: price of the product
 
- freight_value: shipping fee for the product
+freight_value: shipping fee for the product
+ 
 5. olist_order_payments_dataset.csv
 
 order_id: unique identifier for the order
@@ -108,6 +110,7 @@ seller_state: state where the seller is located
 product_category_name: name of the product category in Portuguese
 
 product_category_name_english: name of the product category in English
+
 9. olist_order_reviews_dataset.csv
 
 review_id: unique identifier for each review
