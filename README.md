@@ -4,12 +4,17 @@ This repository contains a data analysis project that explores the sales data of
 Olist is a Brazilian e-commerce platform that connects small and medium-sized businesses to customers across Brazil. The platform operates as a marketplace, where merchants can list their products and services and customers can browse and purchase them online. The Olist sales dataset is a collection of anonymized data about orders placed on the Olist from September 2016 to September 2018.
 # Project Aim
 The primary goal of using the Brazilian E-Commerce Public Dataset by Olist is to analyze and extract actionable insights from real e-commerce data collected from Olist’s online platform in Brazil. This involves understanding customer behavior, sales performance, logistics efficiency, product trends, and overall business performance over time by exploring the multi-dimensional data provided in the dataset
- Dataset Structure 
+# Dataset Structure 
 1.	olist_customers_dataset.csv
+   
 customer_id: unique identifier for each customer
+
 customer_unique_id: unique identifier for each customer (anonymized)
+
 customer_zip_code_prefix: zip code prefix of the customer's address
+
 customer_city: city where the customer is located
+
 customer_state: state where the customer is located
 3.	olist_geolocation_dataset.csv
 •	geolocation_zip_code_prefix: zip code prefix for the location
