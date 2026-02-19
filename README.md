@@ -6,18 +6,18 @@ Olist is a Brazilian e-commerce platform that connects small and medium-sized bu
 The primary goal of using the Brazilian E-Commerce Public Dataset by Olist is to analyze and extract actionable insights from real e-commerce data collected from Olist’s online platform in Brazil. This involves understanding customer behavior, sales performance, logistics efficiency, product trends, and overall business performance over time by exploring the multi-dimensional data provided in the dataset
  Dataset Structure 
 1.	olist_customers_dataset.csv
-•	customer_id: unique identifier for each customer
-•	customer_unique_id: unique identifier for each customer (anonymized)
-•	customer_zip_code_prefix: zip code prefix of the customer's address
-•	customer_city: city where the customer is located
-•	customer_state: state where the customer is located
-2.	olist_geolocation_dataset.csv
+customer_id: unique identifier for each customer
+customer_unique_id: unique identifier for each customer (anonymized)
+customer_zip_code_prefix: zip code prefix of the customer's address
+customer_city: city where the customer is located
+customer_state: state where the customer is located
+3.	olist_geolocation_dataset.csv
 •	geolocation_zip_code_prefix: zip code prefix for the location
 •	geolocation_lat: latitude of the location
 •	geolocation_lng: longitude of the location
 •	geolocation_city: city of the location
 •	geolocation_state: state of the location
-3.	olist_orders_dataset.csv
+4.	olist_orders_dataset.csv
 •	order_id: unique identifier for each order
 •	customer_id: unique identifier for the customer who placed the order
 •	order_status: current status of the order (e.g. delivered, shipped, canceled)
@@ -26,7 +26,7 @@ The primary goal of using the Brazilian E-Commerce Public Dataset by Olist is to
 •	order_delivered_carrier_date: date and time when the order was handed over to the carrier
 •	order_delivered_customer_date: date and time when the order was delivered to the customer
 •	order_estimated_delivery_date: estimated date when the order is expected to be delivered
-4.	olist_order_items_dataset.csv
+5.	olist_order_items_dataset.csv
 •	order_id: unique identifier for the order
 •	order_item_id: unique identifier for each item within an order
 •	product_id: unique identifier for the product being ordered
@@ -34,13 +34,13 @@ The primary goal of using the Brazilian E-Commerce Public Dataset by Olist is to
 •	product shipping_limit_date: date and time when the seller has to ship the product
 •	price: price of the product
 •	freight_value: shipping fee for the product
-5.	olist_order_payments_dataset.csv
+6.	olist_order_payments_dataset.csv
 •	order_id: unique identifier for the order
 •	payment_sequential: index number for each payment made for an order
 •	payment_type: type of payment used for the order (e.g. credit card, debit card, voucher)
 •	payment_installments: number of installments in which the payment was made
 •	payment_value: value of the payment made
-6.	olist_products_dataset.csv
+7.	olist_products_dataset.csv
 •	product_id: unique identifier for each product
 •	product_category_name: name of the category that the product belongs to
 •	product_name_lenght: number of characters in the product name
@@ -50,15 +50,15 @@ The primary goal of using the Brazilian E-Commerce Public Dataset by Olist is to
 •	product_length_cm: length of the product in centimeters
 •	product_height_cm: height of the product in centimeters
 •	product_width_cm: width of the product in centimeters
-7.	olist_sellers_dataset.csv
+8.	olist_sellers_dataset.csv
 •	seller_id: unique identifier for each seller
 •	seller_zip_code_prefix: zip code prefix for the seller's location
 •	seller_city: city where the seller is located
 •	seller_state: state where the seller is located
-8.	product_category_name_translation.csv
+9.	product_category_name_translation.csv
 •	product_category_name: name of the product category in Portuguese
 •	product_category_name_english: name of the product category in English
-9.	olist_order_reviews_dataset.csv
+10.	olist_order_reviews_dataset.csv
 •	review_id: unique identifier for each review
 •	order_id: unique identifier for the order that the review is associated with
 •	review_score: numerical score (1-5) given by the customer for the product
